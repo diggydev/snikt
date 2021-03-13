@@ -1,0 +1,19 @@
+* Snikt!
+
+In the unlikely event that a person interested in reading comic books is also interested in using elaborate systems of
+storing information, then this could be useful.
+
+It scrapes a user's [Comixology|https://www.comixology.eu/] library and builds a
+[recfile|https://www.gnu.org/software/recutils/] description of the comics.
+
+** How to use
+
+- Login in to Comixology and open your [library|https://www.comixology.eu/my-books/library/_/btitleASC/1].
+- Inspect the HTML of each page of the library and download it (maybe I'll automate this in the future, but it's just
+two pages for me, so it's not worth the effort right now).
+- Run the script: /pipenv run python snikt.py library_1.html library_2.html .../
+
+(This ain't done yet.)
+
+
+
